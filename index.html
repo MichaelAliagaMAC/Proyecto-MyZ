@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Regalo Musical</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <!-- Portada con video -->
+      <div class="video-container">
+        <video id="player" autoplay loop>
+          <source src="assets/video.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <!-- Información de la canción -->
+      <div class="song-info">
+        <div class="song-title">Creo en ti</div>
+        <div class="song-author">Reik</div>
+      </div>
+
+      <!-- Barra de progreso -->
+      <div class="progress-bar">
+        <div class="progress"></div>
+        <div class="progress-handle"></div>
+      </div>
+
+      <!-- Controles de reproducción -->
+      <div class="controls">
+        <img id="shuffle" src="assets/iconos/shuffle.svg" alt="Shuffle" />
+        <img id="prev" src="assets/iconos/prev.svg" alt="Anterior" />
+        <img id="play" src="assets/iconos/play.svg" alt="Play" />
+        <img id="next" src="assets/iconos/next.svg" alt="Siguiente" />
+        <img id="repeat" src="assets/iconos/repeat.svg" alt="Repetir" />
+        <img id="heart" src="assets/iconos/heart.svg" alt="Favorito" />
+      </div>
+
+      <!-- Barras de reproducción estilo Spotify -->
+      <div class="soundwave">
+        <img src="assets/iconos/soundwave.svg" alt="Barras de reproducción" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
